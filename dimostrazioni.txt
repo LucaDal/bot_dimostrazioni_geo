@@ -1,0 +1,28 @@
+1 - Teorema di Laplace.
+2 - Matrice Inversa (det(A^-1) = det(A)^-1 && esistenza e calcolo).
+3 - Teorema spazi vettoriali (V ammette almeno una base finita e Tutte le basi sono finite e con stessa cardinalita).
+4 - Corollario (Unicita dei vettori da una base ordinata).
+5 - Trasformazione iniettiva SSE KerT = 0v.
+6 - Equazione dimensionale per le trasformazioni lineari.
+7 - Teorema Equazione matriciale.
+8 - Rango della matrice = Dimensione dell'immagine.
+9 - Rouche-Capelli.
+10 - Teorema di Cramer (i).
+11 - Rappresentazione sottospazi vettoriali h-dimensionali.
+12 - Matrici simili hanno: lo stesso rango e lo stesso determinante.
+13 - Autospazio e' sottospazio vettoriale.
+14 - Calcolo Autovalori parte A e B.
+15 - Teorema Spettrale (Tutte le osservazioni e collegamenti).
+16 - Caratterizzazione matrici simili - pag 83.
+17 - Disuguaglianza di Schwarz.
+18 - Ogni sottospazio euclideo n-dimensionale ammette base ortonormale (Come il calcolo).
+19 - Prodotto scalare standard se base ortonormale.
+20 - Rappr cartesiana di U = base di Complemento ortogonale di U.
+21 - Coordinate di un punto (Spazio euclideo).
+22 - Mutua Posizione tra rette.
+23 - Mutua Posizione tra retta e piano.
+24 - Mutua Posizione tra piani.
+25 - Distanza tra iperpiano e un punto.
+26 - Classificazione Coniche.
+27 - Calcolo del Centro di una conica.
+28 - Calcolo assi di una conica.
