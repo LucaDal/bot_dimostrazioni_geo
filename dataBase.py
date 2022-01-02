@@ -39,17 +39,41 @@ def sql_table_statment(conn):
                                   difficulty varchar
                                   );
                                   """
-    deploy_tables(conn, user_dim_done)
+    dim_dif = """CREATE TABLE IF NOT EXISTS dim_difficulty(
+                    id_user integer,
+                    id_dim integer,
+                    PRIMARY KEY(id_user,id_dim)
+                    );"""
+    try:
+        deploy_tables(conn, user_dim_done)
+        deploy_tables(conn, dim_dif)
+    except Error as e:
+        print(e)
     print("tabelle create")
 
 
-def is_user_on_db(conn, id_user, id_group):
+def is_user_dif_on_db(conn, id_user, id_dim) -> bool:
     cur = conn.cursor()
-    cur.execute("SELECT COUNT(1) FROM user WHERE ? = id_user AND ? = id_group", (id_user, id_group))
+    cur.execute("SELECT COUNT(1) FROM dim_difficulty WHERE ? = id_user AND ? = id_dim", (id_user, id_dim))
     value = cur.fetchall()
     if value[0][0] == 1:
         return True
     return False
+
+
+def insert_user_dif(conn, id_user, id_dim):
+    sql = "INSERT INTO dim_difficulty VALUES(?,?)"
+    deploy_commit(conn, sql, (id_user, id_dim))
+
+
+def update_user_difficulty(conn, id_user, id_dim):
+    if is_user_dif_on_db(conn, id_user, id_dim):
+        sql = "DELETE from dim_difficulty WHERE ? = id_user AND ? = id_dim"
+        deploy_commit(conn, sql, (id_user, id_dim))
+        return False
+    else:
+        insert_user_dif(conn, id_user, id_dim)
+        return True
 
 
 def is_user_dim_done(conn, id_user, id_dim) -> bool:
@@ -64,6 +88,12 @@ def is_user_dim_done(conn, id_user, id_dim) -> bool:
 def insert_user_dim_into_db(conn, id_user, id_dim):
     sql = '''INSERT INTO user_dim_done(id_user,id_dim) VALUES(?,?) '''
     deploy_commit(conn, sql, (id_user, id_dim))
+
+
+def get_difficult_dim(conn,id_user):
+    cur = conn.cursor()
+    cur.execute("SELECT id_dim FROM dim_difficulty WHERE ? = id_user ", (id_user,))
+    return cur.fetchall()
 
 
 def get_done_dim(conn, id_user) -> list:

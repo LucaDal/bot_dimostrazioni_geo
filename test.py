@@ -15,6 +15,10 @@ def print_t():
     value = cur.fetchall()
     for val in value:
         print(val)
+    cur.execute("SELECT * FROM dim_difficulty")
+    value = cur.fetchall()
+    for val in value:
+        print(val)
 
 
 def create():
