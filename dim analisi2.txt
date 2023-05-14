@@ -1,0 +1,21 @@
+1 - (L2 pagina 18) uniforme => puntuale (solo esempio)
+2 - (L2 pagina 21) uniforme <=> sup| fn - f | = 0
+3 - (L2 pagina 25) Teorema convergenza uniforme e continuita`
+4 - (L2 pagina 27) Teorema convergenza uniforme e integrabilita`
+5 - L2 pagina 32 Teorema convergenza uniforme e derivabilita`
+6 - (L3 pagina 3 non fatta) 
+7- (L3 pagina 4) Teorema di Weierstrass (M-test)
+8 - (L3 pagina 10) Serie di potenze centrate in x0
+9 - differenziabilita` implica esistenza derivate parziali (CD pag 14)
+10 - differenziabilita` implica continuità(CD pag 17)
+11 - condizione sufficiente per la differenziabilità (CD pag 18)
+12 - teorema di Fermat (CD pag 40)
+13 - teorema di esistenza e, nel caso non stazionario, di unicità, per la soluzione del problema di Cauchy per una EDO a variabili separabili (EDO pag 10)
+14 - teorema di struttura per EDO lineari del primo ordine, incluso il metodo di variazione delle costanti (EDO pag 21)
+15 - teorema di struttura per le equazioni lineari del secondo ordine (EDO pag 30)
+16 - indipendenza dalla parametrizzazione della lunghezza di una curva (TP pag 5)
+17 - invertendo l'orientazione della curva in un integrale di seconda specie cambia il segno dell'integrale (TP pag 10)
+18 - se un campo ha potenziale il suo integrale lungo una curva dipende solo dal valore del potenziale agli estremi della curva (TP pag 13)
+19 - se un campo ammette potenziale ed e` abbastanza regolare il suo rotore e` nullo (TP pag 14)
+20 - se per ogni curva chiusa con sostegno nel dominio del campo l'integrale del campo su tale curva e` 0 allora il campo ammette potenziale (TP pag 19)
+21 - FACOLTATIVO se un campo ha rotore nullo in un dominio stellato, esso ha potenziale in tale dominio

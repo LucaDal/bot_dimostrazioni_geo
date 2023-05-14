@@ -111,7 +111,7 @@ def lista_dif(message):
     lista = ""
     list_id_dim_difficult = get_list_dim_from_db(db.get_difficult_dim(conn, message.from_user.id))
     if len(list_id_dim_difficult) == 0:
-        bot.send_message(message.chat.id, "Nessuna dimostrazione segata come difficile")
+        bot.send_message(message.chat.id, "Nessuna dimostrazione segnata come difficile")
         return
     lista_dim = get_list_dim()
     for val in list_id_dim_difficult:
@@ -188,7 +188,7 @@ def random_dim(message):
 
 def get_list_dim():
     dim = []
-    with open("dimostrazioni.txt", 'r') as file:
+    with open("dim analisi2.txt", 'r') as file:
         for line in file:
             dim.append(line)
     return dim
