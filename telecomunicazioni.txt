@@ -1,0 +1,15 @@
+1 - Calcolare lo spettro, e disegnarlo, di un segnale PAM con codice AMI, cifre binarie prima della codifica equiprobabili e indipendenti, impulsi rettangolari di ampiezza unitaria con duty cycle 0.5 .
+2 - Modulatori e Demodulatori a prodotto. Modulazione QAM: definizione, formule e schemi relativi. Discutere e analizzare gli effetti in presenza di un errore ∆ nella fase di riferimento.
+3 - Definire la risposta impulsiva di una rete lineare e dimostrare il legame con la funzione di trasferimento di una rete lineare.
+4 - Dimostrare la distribuzione del tempo residuo in un processo degli arrivi poissoniano.
+5 - Ricavare e disegnare gli spettri di ampiezza e fase di un’oscillazione modulata a prodotto.
+6 - Risposta di quadripoli lineari a oscillazioni modulate. Definire e spiegare la funzione di trasferimento equivalente passa-basso con schemi e grafici relativi.
+7 - Ricavare e spiegare l’efficienza dei protocolli sliding window in assenza di errori, con i relativi diagrammi temporali.
+8 - Calcolare il ritardo medio di TDMA e FDMA e, poi, commentare il loro confronto.
+9 - Descrivere, e rappresentare anche con opportuni schemi a blocchi, il processo di conversione digitale-analogica per la ricostruzione del segnale originario. Aggiungere commenti relativi.
+10 - Descrivere, e anche rappresentare con grafici e schemi a blocchi, il processo di conversione analogico- digitale. Aggiungere commenti opportuni.
+11 - Disegnare lo schema a blocchi di un filtro trasversale e scrivere la relativa funzione di trasferimento H(ω).
+12 - Il protocollo CSMA/CD: ricavare l’espressione del throughput S in funzione del parametro a. Disegnarne il grafico.
+13 - Calcolare la funzione di trasferimento e le caratteristiche di ampiezza e di fase di una rete RC. Disegnare i grafici.
+14 - Il protocollo ALOHA: ricavare l’espressione del throughput normalizzato in funzione del traffico totale normalizzato.[2]
+15 - Segnali PAM: definizione e calcolo dei due spettri.

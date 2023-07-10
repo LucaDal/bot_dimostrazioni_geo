@@ -188,7 +188,7 @@ def random_dim(message):
 
 def get_list_dim():
     dim = []
-    with open("dim analisi2.txt", 'r') as file:
+    with open("telecomunicazioni.txt", 'r') as file:
         for line in file:
             dim.append(line)
     return dim
